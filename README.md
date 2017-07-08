@@ -22,32 +22,33 @@
       "linebreak-style": 0
 	    }
   }
-  ```
+```
 # 搭建步骤简述 #
 1. npm init 项目初始化，生成一个package.json
 2. 安装webpack 
  ```javascript
     npm install webpack webpack-dev-server --save-dev
-    ```
+```
+
 3. 安装Babel 
 ```javascript
     npm install babel-core babel-preset-es2015 babel-preset-react --save-dev
-     ```
+```
 4. 配置Babel 见工程下的.babelrc
 ```javascript
   {
     "presets": ["es2015", "react"]
   }
-   ```
+```
 5.安装ESLint
 ```javascript
   npm install eslint@3.19.0 install eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y --save-dev
-   ```
+```
 6.  配置ESLint 详细见工程的.eslintrc.js 
 7. 安装webpack loader
- ```javascript
+```javascript
  npm install eslint-loader install babel-loader style-loader css-loader less-loader sass-loader file-loader url-loader --save-dev
-  ```
+```
 8. 安装webpack plugin
 ```javascript
 npm install html-webpack-plugin uglifyjs-webpack-plugin --save-dev
@@ -88,8 +89,3 @@ export default Index;
 </body>
 </html>
  ```
-
-  
-  
-    
-  
